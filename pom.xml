@@ -33,5 +33,14 @@
 
 	<build>
 		<finalName>SpringBootHelloWorldExample</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.arpit.java2blog</groupId>
+				<artifactId>spring-boot-starter-parent</artifactId>             
+				<configuration>    
+					<mainClass>org.arpit.java2blog.SpringBootHelloWorldApplication </mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>
