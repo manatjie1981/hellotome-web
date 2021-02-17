@@ -35,10 +35,10 @@
 		<finalName>SpringBootHelloWorldExample</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.arpit.java2blog</groupId>
-				<artifactId>spring-boot-starter-parent</artifactId>             
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>             
 				<configuration>    
-					<mainClass>org.arpit.java2blog.SpringBootHelloWorldApplication </mainClass>
+					<mainClass>org.arpit.java2blog.SpringBootHelloWorldApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
